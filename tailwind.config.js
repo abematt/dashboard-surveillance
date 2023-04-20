@@ -14,7 +14,9 @@ module.exports = {
       'light-blue': '#1e40af',
       'green' : "#84cc16",
       'red': "#dc2626",
-      'yellow': "#eab308"
+      'yellow': "#eab308",
+      'pink': "#be185d",
+      'button-blue': "#6366f1"
     },
     extend: {
       backgroundImage: {

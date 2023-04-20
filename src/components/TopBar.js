@@ -106,15 +106,15 @@ export default function TopBar({ showNav, setShowNav }) {
         <Menu as="div" className="relative inline-block text-left">
           <div>
             <Menu.Button className="inline-flex w-full justify-center items-center">
-              <picture>
+              {/* <picture>
                 <img
                   src="/man-smiling.jpg"
                   className="rounded-full h-8 md:mr-4 border-2 border-white shadow-sm"
                   alt="profile picture"
                 />
-              </picture>
+              </picture> */}
               <span className="hidden md:block font-medium text-gray-700">
-                Rettson
+                Admin
               </span>
               <ChevronDownIcon className="ml-2 h-4 w-4 text-gray-700" />
             </Menu.Button>
@@ -130,7 +130,7 @@ export default function TopBar({ showNav, setShowNav }) {
           >
             <Menu.Items className="absolute right-0 w-56 z-50 mt-2 origin-top-right bg-white rounded shadow-sm">
               <div className="p-1">
-                <Menu.Item>
+                {/* <Menu.Item>
                   <Link
                     href="#"
                     className="flex hover:bg-orange-500 hover:text-white text-gray-700 rounded p-2 text-sm group transition-colors items-center"
@@ -138,10 +138,10 @@ export default function TopBar({ showNav, setShowNav }) {
                     <PencilIcon className="h-4 w-4 mr-2" />
                     Edit
                   </Link>
-                </Menu.Item>
+                </Menu.Item> */}
                 <Menu.Item>
                   <Link
-                    href="#"
+                    href="/billing"
                     className="flex hover:bg-orange-500 hover:text-white text-gray-700 rounded p-2 text-sm group transition-colors items-center"
                   >
                     <CreditCardIcon className="h-4 w-4 mr-2" />
@@ -150,7 +150,7 @@ export default function TopBar({ showNav, setShowNav }) {
                 </Menu.Item>
                 <Menu.Item>
                   <Link
-                    href="#"
+                    href="/manage"
                     className="flex hover:bg-orange-500 hover:text-white text-gray-700 rounded p-2 text-sm group transition-colors items-center"
                   >
                     <Cog8ToothIcon className="h-4 w-4 mr-2" />
